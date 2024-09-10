@@ -93,6 +93,7 @@ class Login extends Component {
                 value={userId}
                 onChange={this.one}
               />
+              <p>User ID: 142420</p>
             </div>
             <div className="inp-con">
               <label htmlFor="pin" className="lab">
@@ -106,6 +107,7 @@ class Login extends Component {
                 value={pin}
                 onChange={this.two}
               />
+              <p>PIN: 231225</p>
             </div>
             <button className="but" type="submit">
               Login
